@@ -1,0 +1,28 @@
+th, td {
+	text-align: left;
+	padding: 0 .2em;
+}
+
+tr.pending {
+	background: #ee9;
+}
+
+tr.pass {
+	background: #9e9;
+}
+
+tr.fail {
+	background: #e99;
+}
+
+tr.error {
+	background: #111;
+	color: #fff;
+}
+
+.label {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0 .2em;
+}
+

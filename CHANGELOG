@@ -1,0 +1,18 @@
+- Added ConsoleReporter, that works like an rspec report (prints dots and letters).
+  Should work with Rhino [foca, Matthieu Riou]
+- Changed Report "callbacks" to be beforeEach and afterEach. They receive the report
+  as a parameter [foca]
+- Change HTML report to a table, make multiple reports easy to use. Change reporter
+  by setting Specs.report to the name of the class [foca]
+- Allow Expectation.extend to work on instances instead of prototypable objects (?!)
+  Add Context.expect as a shortcut to extend instances inside specs. [Michael Shuerig]
+- Allow something.should have(N, "elements"). If something.elements doesn't exist, 
+  then it assumes something is an enumerable and calles size/gets length of it to 
+  compare with N [foca]
+- Fixed rake's task to include matchers in the source when building a package [foca]
+
+[0.2.2]
+
+- Fixed (1).should(be(1)) to check if both are numbers, then return x == y, else x === y
+  and patched Object.isNumber to check for instanceof if typeof doesn't work [foca]
+- ...I should've started keeping this long ago :-)

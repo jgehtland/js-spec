@@ -1,0 +1,41 @@
+8
+
+dir
+2
+https://js-spec.googlecode.com/svn/trunk/spec
+https://js-spec.googlecode.com/svn
+
+
+
+2007-12-21T05:31:19.129257Z
+2
+godfoca
+
+
+svn:special svn:externals svn:needs-lock
+
+index.html
+file
+19
+
+
+
+2007-12-30T02:38:41.000000Z
+b50550c644b477bc44a55d17759df2b9
+2007-12-22T23:44:48.139964Z
+19
+godfoca
+has-props
+
+js-spec.css
+file
+24
+
+
+
+2007-12-30T02:37:56.000000Z
+cd06c70b4690287ed27030e92910dd44
+2007-12-30T02:43:32.917848Z
+24
+godfoca
+
