@@ -451,6 +451,7 @@ Specs = Object.extend([], {
 			});
 			report.afterEach && report.afterEach(context);
 		});
+		report.afterAll && report.afterAll();
 	},
 	describe: function() {
 		return this.invoke("describe").join("\n\n");
